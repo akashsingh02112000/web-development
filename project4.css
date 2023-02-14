@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    border: 3px solid black;
+    border-radius: 30px;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: aliceblue;
+
+}
+nav{
+    display: flex;
+    background-color: rgb(38, 32, 32);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* justify-content: space-between; */
+    gap: 80px;
+    align-items: center;
+    padding-left:50px ;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+button{
+    background-color: #af0eaf   ;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+   
+
+    
+}
+nav button{
+    margin-left: 30%;
+}
+section{
+    background-image: url("./assests/bg.png");
+    background-size: cover;
+    height: 91.5vh;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+section div{
+    justify-content: center;
+    padding-top: 10%;
+}
+h1{
+    color: antiquewhite;
+    font-size: 60px;
+    font-weight: 900;
+}
+p{
+    color: antiquewhite;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+section button{
+    width: 250px;
+    height: 40px;
+    font-size:20px ;
+}
+button:hover{
+    background-color: rgb(8, 8, 116);
+    width: 300px;
+    font-size: 25px;
+}
